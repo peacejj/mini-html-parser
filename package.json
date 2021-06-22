@@ -1,10 +1,10 @@
 {
-  "name": "mini-html-parser2",
-  "version": "0.3.0",
+  "name": "@peacejj/mini-html-parser2",
+  "version": "0.3.2",
   "description": "小程序富文本",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ant-mini-program/mini-html-parser.git"
+    "url": "git@github.com:peacejj/mini-html-parser.git"
   },
   "files": [
     "lib"
@@ -12,7 +12,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
-    "build": "rc-tools run compile",
+    "build": "./node_modules/.bin/webpack",
     "pub": "git push origin && npm run build && npm publish"
   },
   "keywords": [
@@ -20,11 +20,14 @@
     "mini-program",
     "html-parser"
   ],
-  "author": "issac.lj@alibaba-inc.com",
+  "author": "18829349799@163.com",
   "devDependencies": {
     "@types/node": "^11.9.6",
     "jest": "^23.6.0",
-    "rc-tools": "^8.1.5"
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   },
   "dependencies": {
     "domhandler": "^2.4.2",

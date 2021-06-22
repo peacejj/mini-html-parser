@@ -1,9 +1,15 @@
 # mini-html-parser2
 
+## 背景
+fork项目阿里项目[mini-html-parser](https://github.com/ant-mini-program/mini-html-parser)，重新编译把依赖打包到一起。
+
+## 版本
+本版本0.3.x 对应官网0.3.0
+
 ## 安装
 
 ```
-$ npm install mini-html-parser2 --save
+$ npm install @peacejj/mini-html-parser2 --save
 ```
 
 ## 使用
@@ -32,7 +38,7 @@ const html = `<div>
     </table>
 </div>
 </div>`
-import parse from 'mini-html-parser2';
+import parse from '@peacejj/mini-html-parser2';
 
 Page({
   data: {

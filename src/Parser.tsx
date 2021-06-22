@@ -1,4 +1,4 @@
-var Tokenizer = require("./Tokenizer.js");
+var Tokenizer = require("./Tokenizer");
 
 /*
 	Options:
